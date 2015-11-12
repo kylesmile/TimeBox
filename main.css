@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.time-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.time-button {
+  border-radius: 100%;
+  border: 1px solid black;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  -webkit-user-select: none;
+}
+
+.time-button:hover {
+  cursor: default;
+  background-color: #eee;
+}
+
+.time-button:active {
+  background-color: #ddd;
+}
+
+.timer {
+  text-align: center;
+  line-height: 80px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 70px;
+}
+
+.time-up {
+  color: red;
+}
